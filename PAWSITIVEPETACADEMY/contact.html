@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pawsitive Pet Academy</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F5E7D1;
+            color: #49362A;
+        }
+
+        header {
+            background-color: #123F3B;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0D302D;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #C9A34A;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .contact-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .contact-box {
+            background-color: #FFF9F0;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid #C9A34A;
+        }
+
+        h2 {
+            color: #123F3B;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #9A8B78;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            background-color: #123F3B;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #75452E;
+        }
+
+        footer {
+            background-color: #123F3B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>We Would Love to Hear From You</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="fees.html">Fees</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Get in Touch</h2>
+
+        <p>
+            Do you have questions about our training programmes?
+            Contact Pawsitive Pet Academy for more information.
+        </p>
+
+        <img
+            class="contact-image"
+            src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=85"
+            alt="A dog receiving attention from a person">
+    </section>
+
+    <section class="contact-box">
+        <h2>Our Contact Details</h2>
+
+        <p>Email: Add the approved academy email address</p>
+        <p>Phone: Add the approved academy phone number</p>
+        <p>Location: Add the approved academy location</p>
+    </section>
+
+    <section class="contact-box">
+        <h2>Send an Enquiry</h2>
+
+        <form action="#" method="post">
+            <label for="fullname">Full Name:</label>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required>
+
+            <label for="email">Email Address:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required>
+
+            <label for="phone">Phone Number:</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number">
+
+            <label for="message">Your Message:</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your enquiry here"
+                required></textarea>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+
+        <p>
+            Note: The form is for the HTML demonstration.
+            It will need a backend or form service to send
+            enquiries.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Pawsitive Pet Academy</p>
+</footer>
+
+</body>
+</html>
